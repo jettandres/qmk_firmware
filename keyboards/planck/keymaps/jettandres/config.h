@@ -15,7 +15,6 @@
  */
 
 #pragma once
-
 #ifdef AUDIO_ENABLE
 #    define STARTUP_SONG SONG(PLANCK_SOUND)
 // #define STARTUP_SONG SONG(NO_SOUND)
@@ -47,3 +46,6 @@
 
 // Most tactile encoders have detents every 4 stages
 #define ENCODER_RESOLUTION 4
+
+// Fix startup boot sound
+#define AUDIO_INIT_DELAY
